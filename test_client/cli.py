@@ -20,7 +20,7 @@ async def heartbeat_send(ws):
 async def main():
 
     async with websockets.connect(
-        'ws://127.0.0.1:8000/ws/socket-server/202021'
+        'ws://127.0.0.1:5000/ws/socket-server/202021'
     ) as ws:
 
         print(f"Connection established..")
